@@ -5,7 +5,6 @@ using namespace std;
 const int maxN = 2005;
 const int maxT = 2005;
 
-
 int arr[maxN][maxT], solved[maxT], ac[maxN];
 pair <int, int> score[maxN];
 
