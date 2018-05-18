@@ -36,6 +36,6 @@ int rectangle(int R, int C, int H, int W, int Q[3001][3001]) {
         } else {
             l = mid + 1;
         }
-	}
+    }
     return best;
 }
