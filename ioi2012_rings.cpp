@@ -6,7 +6,6 @@ using namespace std;
 const int MX = 1000006;
 
 int N;
-
 int par[MX], par4[4][MX];
 int Find(int x) {
     return par[x] < 0 ? x : (par[x] = Find(par[x]));
