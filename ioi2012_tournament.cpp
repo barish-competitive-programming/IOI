@@ -73,7 +73,6 @@ int lca(int x, int y) {
     return par[x][0];
 }
 
-int lf[N], rg[N], root[N];
 int GetBestPosition(int N, int C, int R, int *K, int *S, int *E) {
     for (int i = 1; i <= N; i++) {
         id[i] = i;
